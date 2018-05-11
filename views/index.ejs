@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+        <form id='editfile' method='post' action='/upload' enctype='multipart/form-data'>
+            <input name="text" type="text"/>
+            选择图片：<input name="avatar" id='upfile' type='file'/>
+            <input type='submit' value='提交'/>
+        </form>
+  </body>
+</html>
